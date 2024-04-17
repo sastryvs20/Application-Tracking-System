@@ -4,7 +4,6 @@ import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
 import json
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 load_dotenv() ## load all our environment variables
 
